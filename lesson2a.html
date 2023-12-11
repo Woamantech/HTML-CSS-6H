@@ -8,6 +8,13 @@
     border-radius: 15px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s ;
+  }
+  .subcribe-button:hover{
+    opacity: 0.8;
+  }
+  .subcribe-button:active{
+    opacity: 0.4;
   }
 </style>
 <button class="subcribe-button">
@@ -15,12 +22,22 @@
 </button>
 <style>
   .join-button {
-    color: blue;
+    color: rgb(41, 118, 211);
     height: 35px;
     width: 70px;
     background-attachment: white;
     cursor: pointer;
+    border-width: 0.5px;
+    color:  rgb(41, 118, 211);
+    transition: background-color 0.5s, color 0.5s;
   
+  }
+  .join-button:hover{
+    background-color: rgb(41, 118, 211) ;
+    color: white;
+  }
+  .join-button:active{
+    opacity: 0.6;
   }
   
 </style>
@@ -31,7 +48,7 @@
 <style>
   .Tweet-button{
     
-    background-color: hsl(240, 53%, 61%);
+    background-color: rgb(2, 118, 255);
     height: 36px;
     width: 90px;
     color: white;
@@ -42,6 +59,12 @@
     font-size: 100%;
     border: none;
     margin-left: 8px;
+    transition: box-shadow 0.15s;
+    transition: box-shadow 0.2s ;
+  
+  }
+  .Tweet-button:hover{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
   }
 </style>
 
