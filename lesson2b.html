@@ -6,18 +6,27 @@
     border: none;
     width: 100px;
     height: 30px;
-
-  }
+    transition: opacity 1s;
+ }
+ .Request-button:hover{
+  opacity: 0.7;
+ }
 </style>
 <button class="Request-button">Request now</button>
+
+
 <H2>@AmazonS</H2>
 <style>
 .Add-button{
   background-color: rgb(255, 216, 20);
 border: none;
-width: 150px;
+width: 200px;
 height: 30px;
 border-radius: 18px;
+transition: background-color 1s;
+}
+.Add-button:hover{
+  background-color: rgb(204, 176, 36);
 }
 </style>
 <button class="Add-button"><b>Add to Cart</b></button>
@@ -31,6 +40,10 @@ width: 95px;
 height: 35px;
 border-radius: 10px;
 border: none;
+transition: box-shadow 1s;
+  }
+  .Sign-button:hover{
+    box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.2);
   }
 </style>
 <button class="Sign-button"><b>Sign up</b></button>
@@ -44,6 +57,10 @@ height: 35px;
 border: none;
 border-radius: 3px;
 color: white;
+transition: background-color 1s;
+  }
+  .Bootstarp-button:hover{
+    background-color: rgb(91, 6, 108);
   }
 
 </style>
@@ -56,8 +73,13 @@ width: 100px;
 height: 35px;
 border-radius: 3px;
 border-width: 1px;
-
-  }
+transition: background-color 1s;
+transition: color 0.5;
+}
+.download-button:hover{
+  background-color: rgb(52, 51, 51);
+  color: white;
+}
 </style>
 <button class="download-button"><b>Download</b></button>
 
@@ -70,9 +92,10 @@ border-width: 1px;
     height: 35px;
     border-radius: 20px;
     border: none;
-    
-
-  }
+    }
+    .Apply-button:hover{
+      background-color:rgb(5, 52, 99);
+    }
 </style>
 <button class="Apply-button"><b>Apply on company website</b></button>
 
@@ -86,6 +109,12 @@ border-width: 1px;
     border-color: blue;
     border-width: 1px;
     font-size: 15px;
+    transition: background-color o.5s;
+    border-width: 0.5s;
+  }
+  .save-button:hover{
+    background-color: rgb(223, 223, 255);
+    border-width: 1px;
   }
 </style>
 <button class="save-button"><b>Save</b></button>
@@ -105,6 +134,12 @@ border-width: 1px;
     border-radius: 20px;
 
   } 
+  .Add-button:hover{
+  background-color: rgb(204, 176, 36);
+}
+.Add-button:active{
+  opacity: 0.8;
+}
   .Buy-button{
     background-color: rgb(255, 164, 28);
     width: 120px;
@@ -113,6 +148,12 @@ border-width: 1px;
     border-radius: 20px;
 
   }
+  .buy-button:hover{
+  background-color: rgb(219, 134, 8);
+}
+.buy-button:active{
+  opacity: 0.8;
+}
 </style>
 <button class="Add-button">Add to Cart</button>
 <button class="Buy-button">Buy now</button>
