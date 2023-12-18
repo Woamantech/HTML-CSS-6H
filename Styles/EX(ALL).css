@@ -1,5 +1,4 @@
 
-<style>
     .Ta-font{
         font-family: Tahoma;
         font-size: 20px;
@@ -7,15 +6,7 @@
         font-weight: bold;
         text-align: left;
     }
-</style>
-<p class="Ta-font">
-    This is Tahoma Font
-</p>
 
-<hr>
-
-
-<style>
     .Bi-font{
         font-family: Arial;
         font-size: 20px;
@@ -25,12 +16,7 @@
         line-height: 30px;
         text-align: left;
     }
-</style>
-<p class="Bi-font">
-    Biggest Deals of the Year!
-</p>
 
-<style>
     .sales-font{
         font-family: Arial;
         font-size: 15px;
@@ -40,15 +26,6 @@
         width: 300px;
         text-align: left;
     }
-</style>
-<p class="sales-font">
-    Sales end Tuesday
-</p>
-
-<hr>
-
-
-<style>
 .html-text{
     color: black;
     font-family: verdana;
@@ -58,14 +35,6 @@
     text-align: left;
 
 }
-</style>
-
-<p class="html-text">
-    HTML CSS Course 
-</p>
-
-
-<style>
     .Be-title{
         color: gray;
         font-family: verdana;
@@ -74,13 +43,7 @@
         margin-bottom: 15px;
         text-align: left;
     }
-</style>
-<p class="Be-title">
-    Beginner to pro
-</p>
 
-
-<style>
     .in-text{
         color: black;
         font-family: verdana;
@@ -90,12 +53,6 @@
         margin-bottom: 15px;
         text-align: left;
     }
-</style>
-<p class="in-text">
-    In the course, we'll learn the skills you need to become a developer
-</p>
-
-<style>
 .get-button{
     background-color: rgb(27, 125, 27);
     color: white;
@@ -108,15 +65,7 @@
     margin-bottom: 20px;
     margin-top: 0;
 }
-</style>
-<button class="get-button">
-    Get started
-</button>
 
-<hr>
-
-
-<style>
     .shop-text{
         color: black;
         font-family: Arial;
@@ -126,13 +75,6 @@
         margin-bottom: 15px;
 
     }
-</style>
-<p class="shop-text">
-    Shopping for your bussiness?
-</p>
-
-
-<style>
     .see-text{
         text-align: center;
         font: Arial;
@@ -143,35 +85,12 @@
 
 
     }
-</style>
-<p class="see-text">
-    See how Apple at work can help.
-</p>
-
-<style>
     .learn-title{
         color: blue;
         text-align: center;
         font-family: Arial;
         font-size: 11px;
     }
-</style>
-<p class="learn-title">
-    Learn more &gt;
-</p>
-
-<hr>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <h1 style="font-size: 20px;">Challenge Exercise 5e.</h1>
-</head>
-<body>
-    
-
-<style>
 
     p{
         font-family: Arial;
@@ -224,28 +143,4 @@
 
         margin-top: 0;
     }
-</style>
-<p class="new-text">
-    New
-</p>
-
-<p class="Mac-text">
-    MacBook Pro
-</p>
-
-<p class="super-text">
-    Supercharged for pros.
-</p>
-
-<p class="from-text">
-    From $1999
-</p>
-
-<p>
-    <span class="buy">Buy</span>
-</p>
-</body>
-</html>
-
-<hr>
 

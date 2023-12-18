@@ -1,4 +1,4 @@
-<style>
+
   .back-button{
     padding-top: 10px;
    padding-bottom: 10px ;
@@ -17,34 +17,16 @@
   text-decoration: none
 
    }
-</style>
-<button class="back-button">Back</button>
 
-<div class="pagination">
-  <a href="#">&laquo;</a>
-<a href="#">1</a>
-<a href="#">2</a>
-<a href="#">3</a>
-<a href="#">4</a>
-<a href="#">5</a>
-<a href="#">&raquo;</a>
-</div>
-<style>
+
   .Next-button{
     padding-top: 10px;
    padding-bottom: 10px ;
    padding-left: 16px;
    padding-right: 16px;
    }
-    </style>
-<button class="Next-button">Next</button>
 
-
-
-
-<br>
-<style>
-  .Stretch-Button{
+  .Stretch-button{
     background-color: rgb(6, 171, 6);
     padding-top: 10px;
    padding-bottom: 10px ;
@@ -60,6 +42,7 @@
       cursor: pointer;
       margin-bottom: 20px;
   }
+
   .Stretch-button:hover{
     padding-top: 18px;
     padding-bottom: 18px;
@@ -67,12 +50,7 @@
     padding-right: 36px;
 
   }
-</style>
 
-<button class="Stretch-button"><b>Stretch</b></button>
-
-<br>
-<style>
   .Atretch-Button {
     background-color: green;
     color: white;
@@ -97,14 +75,3 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-</style>
-
-<button class="Atretch-Button">
-  One
-</button>
-<button class="Atretch-Button">
-  Two
-</button>
-<button class="Atretch-Button">
-  Three
-</button>

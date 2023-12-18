@@ -1,6 +1,5 @@
-<style>
-  p {
-    font-family: Arial;
+p {
+    font-family: Roboto;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -48,20 +47,3 @@
     text-decoration: underline;
     cursor: pointer;
   }
-</style>
-
-<p class="video-title">Talking Tech and AI with Google CEO Sundar Pichail!</p>
-
-<p class="bingo-text">3.4M view &#183; 6 months ago</p>
-
-<p class="video-author">Marques Brownlee &#10004;</p>
-
-<p class="News-text">
-  Taliking tech and AI on the heels of Google I/O Also a daily driver phone
-  reveals from Google's CEO Shoutout to Sundar!
-</p>
-
-<p class="Apple-text">
-    Shop early for the best selection of holiday favourites. <span class="span-Eg">Shop now &gt;</span> 
-</p>
-
